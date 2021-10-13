@@ -39,16 +39,16 @@ def has_more(lst1, lst2, target):
     m = 0 
     n = 0
 
-   for i in lst1:
-       if i == target:
-          m += 1
-   for i in lst2:
-       if i == target:
-          n += 1
-   if m>n:
-       return True
-   else:
-       return False
+    for i in lst1:
+        if i == target:
+            m += 1
+    for i in lst2:
+        if i == target:
+            n += 1
+    if m>n:
+        return True
+    else:
+        return False
 
 def make_star_strings(lst):
     """
