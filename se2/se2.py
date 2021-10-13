@@ -15,8 +15,12 @@ def peep(p, e):
     """
 
     ### EXERCISE 1 -- Replace pass with your code
-    pass
-
+    n=1000*p+100*e+10*e+p
+    If n == (11p)**e:
+        return True
+    else:
+        return False
+ 
 def has_more(lst1, lst2, target):
     """
     Determine which list contains more of the target value
@@ -30,7 +34,21 @@ def has_more(lst1, lst2, target):
     """
 
     ### EXERCISE 2 -- Replace pass with your code
-    pass
+    lst1 = []
+    lst2 = []
+    m = 0 
+    n = 0
+
+   for i in lst1:
+       if i == target:
+          m += 1
+   for i in lst2:
+       if i == target:
+          n += 1
+   if m>n:
+       return True
+   else:
+       return False
 
 def make_star_strings(lst):
     """
@@ -43,7 +61,12 @@ def make_star_strings(lst):
     """
 
     ### EXERCISE 3 -- Replace pass with your code
-    pass
+    star = '*'
+    star_list = []
+    for i in list_input:
+        i_star = i*star
+        star_list.append(i_star)
+    return star_list
 
 def replace(lst, replacee, replacer):
     """
@@ -58,7 +81,13 @@ def replace(lst, replacee, replacer):
     """
 
     ### EXERCISE 4 -- Replace pass with your code
-    pass
+    if replacee in lst:
+        for replacee in lst:
+            replacee == replacer
+            return lst
+    else:
+            return None
+    
 
 def rows_and_columns_contain(lst, target):
     """
