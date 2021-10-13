@@ -16,7 +16,7 @@ def peep(p, e):
 
     ### EXERCISE 1 -- Replace pass with your code
     n=1000*p+100*e+10*e+p
-    if n == (11*p)^e:
+    if n == (10*p+p)**e:
         return True
     else:
         return False
@@ -63,7 +63,7 @@ def make_star_strings(lst):
     ### EXERCISE 3 -- Replace pass with your code
     star = '*'
     star_list = []
-    for i in list_input:
+    for i in lst:
         i_star = i*star
         star_list.append(i_star)
     return star_list
