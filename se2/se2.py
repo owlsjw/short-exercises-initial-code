@@ -16,7 +16,7 @@ def peep(p, e):
 
     ### EXERCISE 1 -- Replace pass with your code
     n=1000*p+100*e+10*e+p
-    If n == (11p)**e:
+    If n == (11p)^e:
         return True
     else:
         return False
